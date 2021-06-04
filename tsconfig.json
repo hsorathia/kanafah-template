@@ -22,6 +22,6 @@
     "resolveJsonModule": true,
     "baseUrl": "."
   },
-  "exclude": ["node_modules", "./src/tmp/"],
+  "exclude": ["node_modules", "./src/tmp/", "yarn/"],
   "include": ["./src/**/*.tsx", "./src/**/*.ts"]
 }
