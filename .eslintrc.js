@@ -1,12 +1,20 @@
 module.exports = {
-  root: true,
-  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
-  parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'eslint-plugin-import'],
+  plugins: ['@typescript-eslint', 'eslint-comments', 'jest', 'promise', 'unicorn'],
+  extends: [
+    'airbnb-typescript',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:eslint-comments/recommended',
+    'plugin:jest/recommended',
+    'plugin:promise/recommended',
+    'plugin:unicorn/recommended',
+    'prettier',
+  ],
+  env: {
+    node: true,
+    browser: true,
+    jest: true,
+  },
   rules: {
-    '@typescript-eslint/indent': ['error', 2],
-    '@typescript-eslint/no-unused-vars': 'error',
-    '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/no-var-requires': 0,
     'no-prototype-builtins': 'off',
     'import/prefer-default-export': 'off',
@@ -22,6 +30,7 @@ module.exports = {
     ],
     'unicorn/prevent-abbreviations': 'off',
   },
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
   },
