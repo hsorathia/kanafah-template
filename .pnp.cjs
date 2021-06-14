@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/express", "npm:4.17.12"],
+            ["@types/prettier", "npm:2.3.0"],
             ["@types/tsc-watch", "npm:4.2.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:5e7b0c21900331691d54709dc9ee28e029226b25f542a6d347e57f3b78e9933cf2e73787df299e39b40a3f84568d80d0b22430adc3b0371d29117525c08dae5b#npm:4.26.0"],
             ["@typescript-eslint/parser", "virtual:5e7b0c21900331691d54709dc9ee28e029226b25f542a6d347e57f3b78e9933cf2e73787df299e39b40a3f84568d80d0b22430adc3b0371d29117525c08dae5b#npm:4.26.0"],
@@ -45,7 +46,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:5e7b0c21900331691d54709dc9ee28e029226b25f542a6d347e57f3b78e9933cf2e73787df299e39b40a3f84568d80d0b22430adc3b0371d29117525c08dae5b#npm:2.23.4"],
             ["express", "npm:4.17.1"],
             ["graphql", "npm:15.5.0"],
+            ["husky", "npm:6.0.0"],
             ["nodemon", "npm:2.0.7"],
+            ["pinst", "npm:2.1.6"],
+            ["prettier", "npm:2.3.1"],
             ["tsc-watch", "virtual:5e7b0c21900331691d54709dc9ee28e029226b25f542a6d347e57f3b78e9933cf2e73787df299e39b40a3f84568d80d0b22430adc3b0371d29117525c08dae5b#npm:4.4.0"],
             ["typescript", "patch:typescript@npm%3A4.3.2#~builtin<compat/typescript>::version=4.3.2&hash=d8b4e7"]
           ],
@@ -648,6 +652,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-15.6.1-1a0b9c8653-8ed16d4f74.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:15.6.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/prettier", [
+        ["npm:2.3.0", {
+          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.3.0-b1be4bd841-8dd9b5263f.zip/node_modules/@types/prettier/",
+          "packageDependencies": [
+            ["@types/prettier", "npm:2.3.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3073,6 +3086,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["fromentries", [
+        ["npm:1.3.2", {
+          "packageLocation": "./.yarn/cache/fromentries-npm-1.3.2-f5392090b8-33729c529c.zip/node_modules/fromentries/",
+          "packageDependencies": [
+            ["fromentries", "npm:1.3.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["fs-capacitor", [
         ["npm:2.0.4", {
           "packageLocation": "./.yarn/cache/fs-capacitor-npm-2.0.4-344fd25807-5558e6c9b9.zip/node_modules/fs-capacitor/",
@@ -3576,6 +3598,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["humanize-ms", "npm:1.2.1"],
             ["ms", "npm:2.1.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["husky", [
+        ["npm:6.0.0", {
+          "packageLocation": "./.yarn/cache/husky-npm-6.0.0-384872ea98-db6da76a67.zip/node_modules/husky/",
+          "packageDependencies": [
+            ["husky", "npm:6.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -4108,6 +4139,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["kanafah-template", "workspace:."],
             ["@types/express", "npm:4.17.12"],
+            ["@types/prettier", "npm:2.3.0"],
             ["@types/tsc-watch", "npm:4.2.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:5e7b0c21900331691d54709dc9ee28e029226b25f542a6d347e57f3b78e9933cf2e73787df299e39b40a3f84568d80d0b22430adc3b0371d29117525c08dae5b#npm:4.26.0"],
             ["@typescript-eslint/parser", "virtual:5e7b0c21900331691d54709dc9ee28e029226b25f542a6d347e57f3b78e9933cf2e73787df299e39b40a3f84568d80d0b22430adc3b0371d29117525c08dae5b#npm:4.26.0"],
@@ -4117,7 +4149,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:5e7b0c21900331691d54709dc9ee28e029226b25f542a6d347e57f3b78e9933cf2e73787df299e39b40a3f84568d80d0b22430adc3b0371d29117525c08dae5b#npm:2.23.4"],
             ["express", "npm:4.17.1"],
             ["graphql", "npm:15.5.0"],
+            ["husky", "npm:6.0.0"],
             ["nodemon", "npm:2.0.7"],
+            ["pinst", "npm:2.1.6"],
+            ["prettier", "npm:2.3.1"],
             ["tsc-watch", "virtual:5e7b0c21900331691d54709dc9ee28e029226b25f542a6d347e57f3b78e9933cf2e73787df299e39b40a3f84568d80d0b22430adc3b0371d29117525c08dae5b#npm:4.4.0"],
             ["typescript", "patch:typescript@npm%3A4.3.2#~builtin<compat/typescript>::version=4.3.2&hash=d8b4e7"]
           ],
@@ -5025,6 +5060,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["pinst", [
+        ["npm:2.1.6", {
+          "packageLocation": "./.yarn/cache/pinst-npm-2.1.6-750cbdedeb-3644c352a7.zip/node_modules/pinst/",
+          "packageDependencies": [
+            ["pinst", "npm:2.1.6"],
+            ["fromentries", "npm:1.3.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["pkg-dir", [
         ["npm:2.0.0", {
           "packageLocation": "./.yarn/cache/pkg-dir-npm-2.0.0-2b4bf4abd1-8c72b71230.zip/node_modules/pkg-dir/",
@@ -5068,6 +5113,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prepend-http-npm-2.0.0-e1fc4332f2-7694a95254.zip/node_modules/prepend-http/",
           "packageDependencies": [
             ["prepend-http", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["prettier", [
+        ["npm:2.3.1", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.3.1-f8593fac45-3b37731ff7.zip/node_modules/prettier/",
+          "packageDependencies": [
+            ["prettier", "npm:2.3.1"]
           ],
           "linkType": "HARD",
         }]
